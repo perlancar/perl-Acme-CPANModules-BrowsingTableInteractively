@@ -45,7 +45,7 @@ Tickit::Table::Widget or Term::TablePrint.
 _
 
 our $LIST = {
-    summary => 'Creating a palette of visually distinct colors',
+    summary => 'Browsing table interactively',
     description => $text,
     tags => ['task'],
 };
