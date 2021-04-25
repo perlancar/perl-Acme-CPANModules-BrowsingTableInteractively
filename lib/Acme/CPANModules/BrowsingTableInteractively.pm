@@ -21,14 +21,14 @@ horizontal scrolling support or a way to see long text in a column. Not updated
 since 2016.
 
 <pm:Term::TablePrint> - this module lets you browse the table in a terminal.
-Roughly provides the same features like Tickit::Table::Widget with an extra one:
+Provides roughly the same features like Tickit::Table::Widget with an extra one:
 you can press Enter on a row to view it as a "card" where each column will be
 displayed vertically, so you can better see a row that has many columns or
 columns with long text.
 
 Personally, both the above modules are not satisfactory for me. They are not
 that much better than drawing the text table and then filtering the output
-through a pager like *less*. At least with `less` you can scroll horizontally or
+through a pager like *less*. At least with *less* you can scroll horizontally or
 perform incremental searching (though not interactive filtering of rows).
 
 <pm:Text::Table::HTML::DataTables> - this module bundles the wonderful
@@ -40,7 +40,7 @@ hide/show/reorder columns, change the page size, and so on. This is leaps and
 bounds more useful than simply scrolling pages of text provided by
 Tickit::Table::Widget or Term::TablePrint.
 
-[1] https://datatables.net/
+[1] <https://datatables.net/>
 
 _
 
