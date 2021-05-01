@@ -17,7 +17,7 @@ array of arrayrefs) and want to browse it interactively.
 _
     entries => [
         {
-            module => 'Tickit::Table::Widget',
+            module => 'Tickit::Widget::Table',
             description => <<'_',
 
 This module lets you browse the table in a terminal. Using the <pm:Tickit>
@@ -34,7 +34,7 @@ _
             description => <<'_',
 
 This module lets you browse the table in a terminal. Provides roughly the same
-features like Tickit::Table::Widget with an extra one: you can press Enter on a
+features like Tickit::Widget::Table with an extra one: you can press Enter on a
 row to view it as a "card" where each column will be displayed vertically, so
 you can better see a row that has many columns or columns with long text.
 
@@ -46,7 +46,7 @@ _
             description => <<'_',
 
 Personally, all the terminal modules listed here (<pm:Term::TablePrint> and
-<pm:Tickit::Table::Widget>) are currently not satisfactory for me. They are not
+<pm:Tickit::Widget::Table>) are currently not satisfactory for me. They are not
 that much better than drawing the text table (using something like
 <pm:Text::Table::More> or <pm:Text::ANSITable>) and then piping the output
 through a pager like *less*. At least with *less* you can scroll horizontally or
@@ -58,7 +58,7 @@ this method the most often (usually through my CLI framework and the option
 `--format=html+datatables` specified through my CLIs). The main advantage is
 incremental searching/filtering. DataTables also lets you hide/show/reorder
 columns, change the page size, and so on. This is leaps and bounds more useful
-than simply scrolling pages of text provided by Tickit::Table::Widget or
+than simply scrolling pages of text provided by Tickit::Widget::Table or
 Term::TablePrint.
 
 [1] <https://datatables.net/>
