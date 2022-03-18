@@ -1,14 +1,14 @@
 package Acme::CPANModules::BrowsingTableInteractively;
 
+use strict;
+
 # AUTHORITY
 # DATE
 # DIST
 # VERSION
 
-use strict;
-
 our $LIST = {
-    summary => 'Browsing table data interactively',
+    summary => 'List of modules for browsing table data interactively',
     description => <<'_',
 
 This list catalogs are some options on CPAN if you have a table data (typically as an
