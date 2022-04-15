@@ -19,7 +19,7 @@ a favorite choice for writing tools these days. That said, Perl is still a great
 glue to help make those tools work together better for you.
 
 
-1) *Visidata*, <https://www.visidata.org>
+1) **Visidata**, <https://www.visidata.org>
 
 This is currently my favorite. It's terminal-based, written in Python, and has
 more features than any other tools currently written in Perl, by far. vd has
@@ -43,7 +43,7 @@ has support for Visidata. You can specify command-line option `--format=vd` to
 browse the output of your CLI program in Visidata.
 
 
-2) *DataTables*, L<https://datatables.net>
+2) **DataTables**, <https://datatables.net>
 
 DataTables is a JavaScript (jQuery-based) library to add controls to your HTML
 table so you can filter rows incrementally, sort rows, reorder columns, and so
@@ -59,7 +59,7 @@ also has support for DataTables. You can specify command-line option
 output in browser.
 
 
-3) *Tickit::Widget::Table*, <pm:Tickit::Widget::Table>
+3) **Tickit::Widget::Table**, <pm:Tickit::Widget::Table>
 
 This module lets you browse the table in a terminal. Using the <pm:Tickit>
 library, the advantages it's supposed to have is mouse support. It's still very
@@ -68,7 +68,7 @@ columns will be the same. There's no horizontal scrolling support or a way to
 see long text in a column. Not updated since 2016.
 
 
-4) *Term::TablePrint*, <pm:Term::TablePrint>
+4) **Term::TablePrint**, <pm:Term::TablePrint>
 
 This module lets you browse the table in a terminal. Provides roughly the same
 features like Tickit::Widget::Table with an extra one: you can press Enter on a
@@ -79,10 +79,10 @@ There is currently no support beyond the most basic stuffs, so no column hiding,
 reordering, etc.
 
 
-5) *less*
+5) **less**
 
-Don't forget this good ol' Unix pager. You can render your table data as an
-ASCII table (using modules like <pm:Text::Table::More>, <pm:Text::ANSITable>, or
+Don't forget the good ol' Unix pager. You can render your table data as an ASCII
+table (using modules like <pm:Text::Table::More>, <pm:Text::ANSITable>, or
 <pm:Text::Table::Any> for more formats to choose from) then pipe the output to
 it. At least with *less* you can scroll horizontally or perform incremental
 searching (though not interactive filtering of rows).
