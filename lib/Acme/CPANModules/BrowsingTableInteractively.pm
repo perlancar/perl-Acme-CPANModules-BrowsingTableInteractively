@@ -105,3 +105,7 @@ _
 
 1;
 # ABSTRACT:
+
+=head1 SEE ALSO
+
+Related lists: L<Acme::CPANModules::TextTable>.
